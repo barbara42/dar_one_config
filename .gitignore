@@ -1,4 +1,4 @@
 # Folders to ignore 
-/build
+/build/*
 /run/*
 .DS_Store
