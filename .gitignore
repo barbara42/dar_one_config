@@ -1,4 +1,6 @@
-# Folders to ignore 
+# ignore the contents of build and run (specific to each user) 
+/build/*
+/run/*
 
 # mac stuff 
 .DS_Store
