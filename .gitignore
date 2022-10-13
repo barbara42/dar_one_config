@@ -1,4 +1,4 @@
 # Folders to ignore 
-/build/*
-/run/*
+
+# mac stuff 
 .DS_Store
