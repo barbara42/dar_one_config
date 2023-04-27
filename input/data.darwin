@@ -139,7 +139,7 @@
  a_Qpmin = 8*0.005, 2*0.008, 0.008
  a_Qpmax = 8*0.02,  2*0.01,  0.01
 #
- darwin_effective_ksat= T,
+ darwin_effective_ksat= .TRUE.,
  darwin_select_kn_allom= 2,
 #
  grp_ExportFracPreyPred(1:8,9)= 8*.8,
