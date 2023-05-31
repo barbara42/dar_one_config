@@ -2,11 +2,20 @@
  PTRACERS_numInUse= 101,
  PTRACERS_Iter0= 0,
 #
- PTRACERS_advScheme(:)= 101*33,
- PTRACERS_diffKh(:)= 101*0.0,
- PTRACERS_diffKr(:)= 101*1D-05,
- PTRACERS_useGMRedi(:)= 101*.TRUE.,
- PTRACERS_useKPP(:)= 101*.TRUE.,
+## Allowing advenction and diffusion
+#PTRACERS_advScheme(:)= 101*33,
+#PTRACERS_diffKh(:)= 101*0.0,
+#PTRACERS_diffKr(:)= 101*1D-05,
+#PTRACERS_useGMRedi(:)= 101*.TRUE.,
+#PTRACERS_useKPP(:)= 101*.TRUE.,
+
+## Turn off advection and diffusion 
+PTRACERS_advScheme(:)= 101*0,
+PTRACERS_diffKh(:)= 101*0.0,
+PTRACERS_diffKr(:)= 101*0.0,
+PTRACERS_useGMRedi(:)= 101*.FALSE.,
+PTRACERS_useKPP(:)= 101*.FALSE.,
+
 #
 #PTRACERS_ref( :, 1) = 2*2000.,
 #PTRACERS_ref( :,18) = 2*2300.,
