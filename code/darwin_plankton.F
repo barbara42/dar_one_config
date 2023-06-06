@@ -1671,25 +1671,25 @@ C to DIC as if it had never been synthesized.
 
 C setting gTr = 0 for all non-plankton tracers
 C DAR1 Nutrients
-        gTr(iDIC) = gTr(iDIC)*0
-        gTr(iNO3) = gTr(iNO3)*0
-        gTr(iNO2) = gTr(iNO2)*0
-        gTr(iNH4) = gTr(iNH4)*0
-        gTr(iPO4) = gTr(iPO4)*0
-        gTr(iSiO2) = gTr(iSiO2)*0
-        gTr(iFeT) = gTr(iFeT)*0
-        gTr(iDOC) = gTr(iDOC)*0
-        gTr(iDON) = gTr(iDON)*0
-        gTr(iDOP) = gTr(iDOP)*0
-        gTr(iDOFe) = gTr(iDOFe)*0
-        gTr(iPIC) = gTr(iPIC)*0
-        gTr(iPOC) = gTr(iPOC)*0
-        gTr(iPON) = gTr(iPON)*0
-        gTr(iPOP) = gTr(iPOP)*0
-        gTr(iPOSi) = gTr(iPOSi)*0
-        gTr(iPOFe) = gTr(iPOFe)*0
-        gTr(iALK) = gTr(iALK)*0
-        gTr(iO2) = gTr(iO2)*0
+        gTr(iDIC) = gTr(iDIC)*1.0
+        gTr(iNO3) = gTr(iNO3)*1.0
+        gTr(iNO2) = gTr(iNO2)*1.0
+        gTr(iNH4) = gTr(iNH4)*1.0
+        gTr(iPO4) = gTr(iPO4)*1.0
+        gTr(iSiO2) = gTr(iSiO2)*1.0
+        gTr(iFeT) = gTr(iFeT)*1.0
+        gTr(iDOC) = gTr(iDOC)*1.0
+        gTr(iDON) = gTr(iDON)*1.0
+        gTr(iDOP) = gTr(iDOP)*1.0
+        gTr(iDOFe) = gTr(iDOFe)*1.0
+        gTr(iPIC) = gTr(iPIC)*1.0
+        gTr(iPOC) = gTr(iPOC)*1.0
+        gTr(iPON) = gTr(iPON)*1.0
+        gTr(iPOP) = gTr(iPOP)*1.0
+        gTr(iPOSi) = gTr(iPOSi)*1.0
+        gTr(iPOFe) = gTr(iPOFe)*1.0
+        gTr(iALK) = gTr(iALK)*1.0
+        gTr(iO2) = gTr(iO2)*1.0
 C END_DAR1 Nutrients 
 
 #endif /* ALLOW_DARWIN */
